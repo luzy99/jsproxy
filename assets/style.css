@@ -1,44 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0 0.5em;
+}
+
 .inner-center {
-    width: 1000px;
+    width: 90%;
     margin: 0 auto;
- 
+    justify-content: center; 
+    align-items: center;
 }
 
 .main {
     padding-top: 5%;
     min-height: 100%;
-   
 }
+
 .footer {
     height: 60px;
     text-align: center;
-    margin-top: -60px; 
+    margin-top: -60px;
     /* position: relative;
     margin-top: -100px; 
     clear:both; */
 }
+
 /* logo start  */
+
 .logo-box {
     display: flex;
-    overflow: hidden;
-    margin-left: 250px;
+    position: relative;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 10px;
+    justify-content: center; 
     align-items: center;
 }
+
 .logo-left {
     position: relative;
     width: 200px;
     height: 180px;
     cursor: pointer;
 }
+
 .logo-right {
     padding-left: 5px;
     font-size: 36px;
     color: rgba(0, 39, 102, 1);
     font-family: SourceHanSansSC-regular;
 }
-.logo{
+
+.logo {
     width: 100%;
     height: 100%;
 }
+
 /* logo end  */
+
+/* 搜索框 start */
+
+.search-section {
+    margin-top: 14px;
+    margin-bottom: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.search-left {
+    display: flex;
+    width: 877px;
+    height: 54px;
+    line-height: 20px;
+    border: 1px solid rgba(217, 217, 217, 0.96);
+    border-radius: 27px;
+}
+
+.search-logo {
+    position: relative;
+    width: auto;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.search-submit {
+    width: 123px;
+    height: 54px;
+    line-height: 26px;
+    background: #1890ff 48px center no-repeat;
+    -webkit-background-size: 35px 35px;
+    background-size: 35px 35px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-family: Roboto;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 27px;
+}
+
+.input-wrap {
+    position: relative;
+    flex: 1;
+}
+
+.search-input {
+    height: 50px;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    font-size: 18px;
+    padding-left: 15px;
+    padding: 2px;
+}

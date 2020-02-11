@@ -145,13 +145,25 @@
       
     ]
 
+    function iconSize(){
+      sreen_width = document.body.clientWidth
+      if(sreen_width>768){
+        return 96
+      }else if(sreen_width<480){
+        return 72
+      }else{
+        return 80
+      }
+    }
+
     function showIcons() {
+      icon_size = iconSize()
       list.innerHTML = SITE_LIST.map(v => {
         let [id, url] = v
         url = url || `www.${id}.com/`
         return `\
 <a rel="noopener noreferrer" href=./-----https://${url}>\
-<img width=96 height=96 src=__sys__/assets/ico/${id}.png></a>`
+<img width=${icon_size} height=auto src=__sys__/assets/ico/${id}.png></a>`
       }).join('')
     }
 

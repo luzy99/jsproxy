@@ -4,8 +4,9 @@
 <head>
   <title>网页沙盒</title>
   <meta charset="utf-8">
-  <link rel="shortcut icon" href="ico/favicon.png">
+  <link rel="shortcut icon" href="__sys__/assets/ico/favicon.png">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+  <link href="__sys__/assets/style.css" rel="stylesheet" type="text/css">
   <base target="_blank">
   <style>
     body {
@@ -35,17 +36,29 @@
 </head>
 
 <body>
-  <div class="box">
-    <input id="txtURL" type="text" value="www.google.com" autofocus>
-  </div>
-  <div class="box">
-    <button id="btnGo">Go</button>
-  </div>
-  <div class="box" style="display:none">
-    <span>切换线路:</span>
-    <select id="selNode"></select>
-  </div>
-  <div class="box" id="list">
+  <div class="main">
+    <!-- slogan start -->
+    <div class="logo-box">
+      <div class="logo-left">
+        <img src="__sys__/assets/ico/logo.gif" alt="logo">
+      </div>
+      <div class="logo-right">
+        <span>网页沙盒，畅游无界</span>
+      </div>
+    </div>
+    <!-- slogan end -->
+    <div class="box">
+      <input id="txtURL" type="text" value="www.google.com" autofocus>
+    </div>
+    <div class="box">
+      <button id="btnGo">Go</button>
+    </div>
+    <div class="box" style="display:none">
+      <span>切换线路:</span>
+      <select id="selNode"></select>
+    </div>
+    <div class="box" id="list">
+    </div>
   </div>
   <script>
     const PAGE_CONF_SET = 110

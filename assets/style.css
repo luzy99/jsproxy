@@ -1,0 +1,42 @@
+.inner-center {
+    width: 1000px;
+    margin: 0 auto;
+ 
+}
+
+.main {
+    padding-top: 5%;
+    min-height: 100%;
+   
+}
+.content-inside{
+   padding-bottom: 60px;
+}
+.footer {
+    height: 60px;
+    text-align: center;
+    margin-top: -60px; 
+    /* position: relative;
+    margin-top: -100px; 
+    clear:both; */
+}
+/* logo start  */
+.logo-box {
+    display: flex;
+    overflow: hidden;
+    margin-left: 250px;
+    align-items: center;
+}
+.logo-left {
+    position: relative;
+    width: 125px;
+    height: 121px;
+    cursor: pointer;
+}
+.logo-right {
+    padding-left: 36px;
+    font-size: 36px;
+    color: rgba(0, 39, 102, 1);
+    font-family: SourceHanSansSC-regular;
+}
+/* logo end  */

@@ -1,19 +1,19 @@
-body{
+body {
     margin: 0px;
 }
 
-#list a{
+#list a {
     margin: 1em;
 }
 
-.ico_img{
+.ico_img {
     margin: 2px;
 }
 
 .inner-center {
     width: 90%;
     margin: 0 auto;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
@@ -25,7 +25,7 @@ body{
 .footer {
     height: 60px;
     text-align: center;
-    margin-top: -60px;
+    margin-top: -20px;
     /* position: relative;
     margin-top: -100px; 
     clear:both; */
@@ -40,7 +40,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
@@ -74,7 +74,7 @@ body{
     margin-bottom: 40px;
     position: relative;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
@@ -125,4 +125,9 @@ body{
     font-size: 18px;
     padding-left: 15px;
     padding: 2px;
+}
+
+.footer_url {
+    color: #8C8C8C;
+    text-decoration: none;
 }

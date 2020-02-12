@@ -28,7 +28,8 @@
       <div class="search-left">
         <img src="__sys__/assets/ico/google.png" class="search-logo">
         <div class="input-wrap">
-          <input id="txtURL" type="text" value="" autofocus class="search-input" maxlength="100" autocomplete="off" placeholder="输入网址或搜索">
+          <input id="txtURL" type="text" value="" autofocus class="search-input" maxlength="100" autocomplete="off"
+            placeholder="输入网址或搜索">
         </div>
         <!--  搜索结果 start -->
         <ul id="search_result" class="search-result">
@@ -46,6 +47,16 @@
     <div class="box" id="list">
     </div>
   </div>
+  <footer class="inner-center footer">
+    <p>
+      <a href="https://github.com/luzy99/jsproxy" target="_blank"> <img src="__sys__/assets/ico/github.png" alt="" height="30"
+          width="30"></a>
+    </p>
+    <p style="margin-top:8px;color:#8C8C8C;">Copyright © 2020 MADE BY <a href="https://github.com/EtherDream/jsproxy"
+      class="footer_url" target="_blank">EtherDream</a> MODIFIED BY 
+        <a href="https://github.com/luzy99/jsproxy"  class="footer_url" target="_blank">Luzy</a></p>
+
+  </footer>
   <script>
     const PAGE_CONF_SET = 110
     const PAGE_CONF_GET = 111
@@ -131,16 +142,16 @@
       ['reddit', ''],
       ['wiki', 'zh.wikipedia.org/'],
       ['gist', 'github.com/'],
-      
+
     ]
 
-    function iconSize(){
+    function iconSize() {
       sreen_width = document.body.clientWidth
-      if(sreen_width>768){
+      if (sreen_width > 768) {
         return 96
-      }else if(sreen_width<480){
+      } else if (sreen_width < 480) {
         return 70
-      }else{
+      } else {
         return 80
       }
     }

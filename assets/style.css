@@ -1,6 +1,13 @@
 body{
     margin: 0px;
-    padding: 0 0.5em;
+}
+
+#list a{
+    margin: 1em;
+}
+
+.ico_img{
+    margin: 2px;
 }
 
 .inner-center {
@@ -45,6 +52,8 @@ body{
 }
 
 .logo-right {
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 5px;
     font-size: 36px;
     color: rgba(0, 39, 102, 1);
@@ -52,7 +61,7 @@ body{
 }
 
 .logo {
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 
@@ -92,7 +101,7 @@ body{
     height: 54px;
     line-height: 26px;
     background: #1890ff 48px center no-repeat;
-    -webkit-background-size: 35px 35px;
+    min-width: 60px;
     background-size: 35px 35px;
     color: #fff;
     font-size: 18px;

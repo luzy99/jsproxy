@@ -9,17 +9,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
   <link href="__sys__/assets/style.css" rel="stylesheet" type="text/css">
   <base target="_blank">
-  <style>
-    body {
-      padding: 0 0.5em;
-    }
-    .box {
-      margin-top: 1em;
-    }
-    #list a {
-      margin: 1em;
-    }
-  </style>
 </head>
 
 <body>
@@ -30,7 +19,7 @@
         <img src="__sys__/assets/ico/logo.gif" alt="logo" class="logo">
       </div>
       <div class="logo-right">
-        <span>网页沙盒，畅游无界</span>
+        <span>网页沙盒，</span><span>畅游无界</span>
       </div>
     </div>
     <!-- slogan end -->
@@ -150,7 +139,7 @@
       if(sreen_width>768){
         return 96
       }else if(sreen_width<480){
-        return 72
+        return 70
       }else{
         return 80
       }
@@ -163,7 +152,7 @@
         url = url || `www.${id}.com/`
         return `\
 <a rel="noopener noreferrer" href=./-----https://${url}>\
-<img width=${icon_size} height=auto src=__sys__/assets/ico/${id}.png></a>`
+<img class="ico_img" width=${icon_size} height=auto src=__sys__/assets/ico/${id}.png></a>`
       }).join('')
     }
 
